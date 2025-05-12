@@ -9,6 +9,10 @@ service:
   type: NodePort
   port: 80
 
+ingress:
+  enabled: true
+  host: bestrong.local
+
 resources:
   limits:
     memory: "256Mi"
